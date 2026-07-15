@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const BASE_URL = import.meta.env.VITE_API_BASE_URL || 
-'https://localhost:7125/api'; 
+'https://duceysane-001-site1.etempurl.com/api'; 
 
 
 const api = axios.create({ 
