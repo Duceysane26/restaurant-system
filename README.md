@@ -32,7 +32,6 @@ A responsive Restaurant Ordering System frontend built with **React** and **Vite
 
 ```
 src/
-│── public/
 │── assets/
 │── components/
 │── pages/
