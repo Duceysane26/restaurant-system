@@ -1,16 +1,126 @@
-# React + Vite
+# Restaurant Ordering System - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive Restaurant Ordering System frontend built with **React** and **Vite**. The application allows users to browse menu items, place orders, and navigate through different pages with a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Responsive User Interface
+- React Router Navigation
+- Protected Routes
+- Menu Management
+- Category Display
+- Order Management
+- API Integration with Axios
+- Component-Based Architecture
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- React Router DOM
+- Axios
+
+---
+
+## Project Structure
+
+```
+src/
+│── public/
+│── assets/
+│── components/
+│── pages/
+│── routes/
+│── services/
+│── context/
+│── App.jsx
+│── main.jsx
+│── index.css
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Duceysane26/restaurant-system.git
+```
+
+Move into the project folder:
+
+```bash
+cd restaurant-system
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build the project:
+
+```bash
+npm run build
+```
+
+---
+
+## Main Pages
+
+- Home
+- Menu
+- Categories
+- Cart
+- Orders
+- Login
+- Register
+- Dashboard
+
+---
+
+## API Integration
+
+The frontend communicates with the backend using **Axios** and REST APIs.
+
+Example:
+
+```javascript
+axios.get("/api/menu");
+```
+
+---
+
+## Responsive Design
+
+The application is optimized for:
+
+- Mobile
+- Tablet
+- Desktop
+
+---
+
+## Author
+
+**Abdisamad Mohamed ibrahim**
+
+---
+
+## License
+
+This project is developed for educational purposes.
