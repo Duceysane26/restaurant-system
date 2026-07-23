@@ -82,14 +82,13 @@ npm run build
 
 ## Main Pages
 
-- Home
+- Dashboard
+- Orders
 - Menu
 - Categories
-- Cart
-- Orders
-- Login
-- Register
-- Dashboard
+- Tables
+- Bills
+- Users
 
 ---
 
